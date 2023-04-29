@@ -155,17 +155,6 @@ const HotelDetails = ({ navigation, route }) => {
 					<Text>Adults</Text>
 					<Text style={{ fontSize: 13, color: "#999" }}>2</Text>
 				</View>
-
-				{/* <View
-					style={{
-						paddingHorizontal: 20,
-						paddingVertical: 20,
-						borderBottomColor: "#ddd",
-						borderBottomWidth: 0.7,
-					}}>
-					<Text>Child</Text>
-					<Text style={{ fontSize: 13, color: "#999" }}>1</Text>
-				</View> */}
 			</View>
 
 			<View

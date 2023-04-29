@@ -18,7 +18,6 @@ const HomeCard = ({ navigation, item }) => {
 					<Text style={{ color: "#fff" }}>{item?.roomsAvailable}</Text>
 				</View>
 			</View>
-			{/* <View style={{ backgroundColor: "#bbb", height: 140 }} /> */}
 			<Image
 				source={item?.image}
 				style={{ height: 140, maxWidth: 170, borderRadius: 8 }}

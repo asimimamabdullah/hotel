@@ -7,13 +7,6 @@ const DealsCard = ({ index, item, navigation }) => {
 		<TouchableOpacity
 			onPress={() => navigation.navigate("Details", { item: item })}
 			style={{ gap: 5, borderRadius: 5 }}>
-			{/* <View
-				style={{
-					backgroundColor: "rgb(104,112,138)",
-					height: 170,
-					borderRadius: 5,
-				}}
-			/> */}
 			<Image
 				source={item?.image}
 				style={{ height: 170, width: "100%", borderRadius: 5 }}

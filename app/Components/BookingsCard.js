@@ -35,7 +35,6 @@ const BookingsCard = ({ item }) => {
 					<Text>£ {item?.price}</Text>
 				</View>
 			</View>
-			{/* </View> */}
 		</TouchableOpacity>
 	);
 };

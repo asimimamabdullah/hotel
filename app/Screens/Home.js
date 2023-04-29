@@ -46,9 +46,6 @@ const Home = ({ navigation }) => {
 				{hotels?.map((item, index) => (
 					<HomeCard navigation={navigation} item={item} key={index} />
 				))}
-
-				{/* <HomeCard navigation={navigation} />
-				<HomeCard navigation={navigation} /> */}
 			</View>
 		</ScrollView>
 	);
