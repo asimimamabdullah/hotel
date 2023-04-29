@@ -92,6 +92,7 @@ const Register = ({ navigation }) => {
 					placeholderTextColor={"#bbb"}
 					placeholder="password"
 					value={registerDetails.password}
+					secureTextEntry={true}
 					onChangeText={(t) =>
 						setRegisterDetails((val) => ({ ...val, password: t }))
 					}
