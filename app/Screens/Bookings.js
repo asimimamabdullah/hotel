@@ -17,13 +17,11 @@ const Bookings = () => {
 			};
 
 			const res = await axios.get(
-				`http://10.0.2.2:3000/api/hotel/${user._id}`,
+				`https://hotel-backend-production-2b14.up.railway.app/api/hotel/${user._id}`,
 				auth,
 			);
-			console.log("res: ", res.data);
 			setBookings(res.data.hotels);
 		} catch (error) {
-			console.log("error: ", error);
 			setErrorMsg(error?.error.error || error);
 		}
 	};
@@ -32,10 +30,6 @@ const Bookings = () => {
 			getTickets();
 		}
 	}, [token]);
-
-	useEffect(() => {
-		console.log("sdf: ", bookings);
-	}, [bookings]);
 
 	return (
 		<View style={{ flex: 1, padding: 20, gap: 15 }}>
